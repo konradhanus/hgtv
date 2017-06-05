@@ -1,44 +1,1740 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <link rel="Stylesheet" type="text/css" href="styles.css" />
-    <link rel="Stylesheet" type="text/css" href="assets/css/bootstrap-slider.min.css" />
-    <script src="assets/js/myscripts.js"></script>
+<!DOCTYPE html>
+<html lang="pl-PL" prefix="og: http://ogp.me/ns#">
 
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
+    <meta charset="UTF-8" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="http://pgtv.pl/xmlrpc.php" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <!--captcha api -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+    <title>Internet / 24 miesiace &mdash; PGTV.pl / Telewizja Przyszlosci</title>
+    <script type="application/javascript">
+        var edgtCoreAjaxUrl = "http://pgtv.pl/wp-admin/admin-ajax.php"
+    </script>
+    <script type="application/javascript">
+        var EdgefAjaxUrl = "http://pgtv.pl/wp-admin/admin-ajax.php"
+    </script>
+    <!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+    <meta name="robots" content="noindex,follow" />
+    <link rel="canonical" href="http://pgtv.pl/internet-24-miesiace/" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Internet / 24 miesiace &mdash; PGTV.pl / Telewizja Przyszlosci" />
+    <meta property="og:url" content="http://pgtv.pl/internet-24-miesiace/" />
+    <meta property="og:site_name" content="PGTV.pl / Telewizja Przyszlosci" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Internet / 24 miesiace &mdash; PGTV.pl / Telewizja Przyszlosci" />
+    <!-- / Yoast SEO plugin. -->
+
+    <link rel='dns-prefetch' href='//maps.googleapis.com' />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="PGTV.pl / Telewizja Przyszlosci &raquo; Kanal z wpisami" href="http://pgtv.pl/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="PGTV.pl / Telewizja Przyszlosci &raquo; Kanal z komentarzami" href="http://pgtv.pl/comments/feed/" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/pgtv.pl\\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"
+            }
+        };
+        ! function(a, b, c) {
+            function d(a) {
+                var b, c, d, e, f = String.fromCharCode;
+                if (!k || !k.fillText) return !1;
+                switch (k.clearRect(0, 0, j.width, j.height), k.textBaseline = "top", k.font = "600 32px Arial", a) {
+                    case "flag":
+                        return k.fillText(f(55356, 56826, 55356, 56819), 0, 0), !(j.toDataURL().length < 3e3) && (k.clearRect(0, 0, j.width, j.height), k.fillText(f(55356, 57331, 65039, 8205, 55356, 57096), 0, 0), b = j.toDataURL(), k.clearRect(0, 0,
+                            j.width, j.height), k.fillText(f(55356, 57331, 55356, 57096), 0, 0), c = j.toDataURL(), b !== c);
+                    case "emoji4":
+                        return k.fillText(f(55357, 56425, 55356, 57341, 8205, 55357, 56507), 0, 0), d = j.toDataURL(), k.clearRect(0, 0, j.width, j.height), k.fillText(f(55357, 56425, 55356, 57341, 55357, 56507), 0, 0), e = j.toDataURL(), d !== e
+                }
+                return !1
+            }
+
+            function e(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+            var f, g, h, i, j = b.createElement("canvas"),
+                k = j.getContext && j.getContext("2d");
+            for (i = Array("flag", "emoji4"), c.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, h = 0; h < i.length; h++) c.supports[i[h]] = d(i[h]), c.supports.everything = c.supports.everything && c.supports[i[h]], "flag" !== i[h] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[i[h]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+                c.DOMReady = !0
+            }, c.supports.everything || (g = function() {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", g, !1), a.addEventListener("load", g, !1)) : (a.attachEvent("onload", g), b.attachEvent("onreadystatechange", function() {
+                "complete" === b.readyState && c.readyCallback()
+            })), f = c.source || {}, f.concatemoji ? e(f.concatemoji) : f.wpemoji && f.twemoji && (e(f.twemoji), e(f.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='validate-engine-css-css' href='http://pgtv.pl/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.7.8' type='text/css' media='all' />
+    <link rel='stylesheet' id='stylesheet-css' href='http://pgtv.pl/wp-content/plugins/contact-bank/assets/css/stylesheet.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='system-message-css' href='http://pgtv.pl/wp-content/plugins/contact-bank/assets/css/system-message.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='cactus-popup-style-css' href='http://pgtv.pl/wp-content/plugins/call-to-action-popup/css/popup.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href='http://pgtv.pl/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='http://pgtv.pl/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.3.1.5' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
+    </style>
+    <link rel='stylesheet' id='vangard_edge_default_style-css' href='http://pgtv.pl/wp-content/themes/vangard/style.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_modules_plugins-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/plugins.min.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_modules-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/modules.min.css?ver=4.7.3' type='text/css' media='all' />
+    <style id='vangard_edge_modules-inline-css' type='text/css'>
+
+    </style>
+    <link rel='stylesheet' id='edgtf_font_awesome-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/font-awesome/css/font-awesome.min.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='edgtf_font_elegant-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/elegant-icons/style.min.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='edgtf_ion_icons-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/ion-icons/css/ionicons.min.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='edgtf_linea_icons-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/linea-icons/style.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='edgtf_linear_icons-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/linear-icons/style.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_modules_responsive-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/modules-responsive.min.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_blog_responsive-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/blog-responsive.min.css?ver=4.7.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_style_dynamic_responsive-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/style_dynamic_responsive.css?ver=1488957850' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_style_dynamic-css' href='http://pgtv.pl/wp-content/themes/vangard/assets/css/style_dynamic.css?ver=1488957850' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css' href='http://pgtv.pl/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='vangard_edge_google_fonts-css' href='http://fonts.googleapis.com/css?family=Libre+Baskerville%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;ver=1.0.0'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-add-custom-css-css' href='http://pgtv.pl?display_custom_css=css&#038;ver=4.7.3' type='text/css' media='all' />
+    <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/contact-bank/assets/js/jquery.Tooltip.js?ver=4.7.3'></script>
+    <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/contact-bank/assets/js/jquery.validate.min.js?ver=4.7.3'></script>
+    <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.3.1.5'></script>
+    <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.3.1.5'></script>
+    <link rel='https://api.w.org/' href='http://pgtv.pl/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pgtv.pl/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pgtv.pl/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.7.3" />
+    <link rel='shortlink' href='http://pgtv.pl/?p=6745' />
+    <link rel="alternate" type="application/json+oembed" href="http://pgtv.pl/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpgtv.pl%2Fnowa2017%2Finternet-24-miesiace%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="http://pgtv.pl/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpgtv.pl%2Fnowa2017%2Finternet-24-miesiace%2F&#038;format=xml" />
+    <script type='text/javascript'>
+        SG_POPUPS_QUEUE = [];
+        SG_POPUP_DATA = [];
+        SG_APP_POPUP_URL = 'http://pgtv.pl/wp-content/plugins/popup-builder';
+        SG_POPUP_VERSION = '2.52_1;';
+
+        function sgAddEvent(element, eventName, fn) {
+            if (element.addEventListener)
+                element.addEventListener(eventName, fn, false);
+            else if (element.attachEvent)
+                element.attachEvent('on' + eventName, fn);
+        }
+    </script>
+    <style type="text/css">
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style>
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://pgtv.pl/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <meta name="generator" content="Powered by Slider Revolution 5.3.1.5 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <link rel="icon" href="http://pgtv.pl/wp-content/uploads/2017/02/cropped-512x512-l-32x32.png" sizes="32x32" />
+    <link rel="icon" href="http://pgtv.pl/wp-content/uploads/2017/02/cropped-512x512-l-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="http://pgtv.pl/wp-content/uploads/2017/02/cropped-512x512-l-180x180.png" />
+    <meta name="msapplication-TileImage" content="http://pgtv.pl/wp-content/uploads/2017/02/cropped-512x512-l-270x270.png" />
     <noscript>
-      You need to enable JavaScript to run this app.
+        <style type="text/css">
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
     </noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <link rel="stylesheet" href="styles.css">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+
+
+<body class="page-template-default page page-id-6745 edgt-core-1.1.1 vangard-ver-1.3 edgtf-smooth-scroll edgtf-header-centered edgtf-fixed-on-scroll edgtf-default-mobile-header edgtf-sticky-up-mobile-header edgtf-dropdown-animate-height edgtf-light-header edgtf-header-style-on-scroll edgtf-fullscreen-search edgtf-search-fade wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+
+
+
+    <div class="edgtf-wrapper">
+        <div class="edgtf-wrapper-inner">
+            <div class="edgtf-fullscreen-search-holder">
+                <div class="edgtf-fullscreen-search-close-container">
+                    <div class="edgtf-search-close-holder">
+                        <a class="edgtf-fullscreen-search-close" href="javascript:void(0)">
+                            <i class="edgtf-icon-font-awesome fa fa-times "></i> </a>
+                    </div>
+                </div>
+                <div class="edgtf-fullscreen-search-table">
+                    <div class="edgtf-fullscreen-search-cell">
+                        <div class="edgtf-fullscreen-search-inner">
+                            <form action="http://pgtv.pl/" class="edgtf-fullscreen-search-form" method="get">
+                                <div class="edgtf-form-holder">
+                                    <div class="edgtf-field-holder">
+                                        <input type="text" name="s" class="edgtf-search-field" autocomplete="off" placeholder="Szukaj" />
+                                        <div class="edgtf-line"></div>
+                                        <input type="submit" class="edgtf-search-submit" value="&#x55;" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <header class="edgtf-page-header">
+                <div class="edgtf-fixed-wrapper">
+                    <div class="edgtf-menu-area" style=";">
+                        <div class="edgtf-grid">
+                            <div class="edgtf-vertical-align-containers">
+                                <div class="edgtf-position-left">
+                                    <div class="edgtf-position-left-inner">
+
+                                        <div class="edgtf-logo-wrapper">
+                                            <a href="http://pgtv.pl/" style="height: 83px;">
+                                                <img class="edgtf-normal-logo" src="http://pgtv.pl/wp-content/uploads/2017/02/170px.png" alt="logo" />
+                                                <img class="edgtf-dark-logo" src="http://pgtv.pl/wp-content/uploads/2017/02/170px.png" alt="dark logoo" /> <img class="edgtf-light-logo" src="http://pgtv.pl/wp-content/uploads/2017/02/170px.png"
+                                                    alt="light logo" /> </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="edgtf-position-center">
+                                    <div class="edgtf-position-center-inner">
+
+                                        <nav class="edgtf-main-menu edgtf-drop-down edgtf-default-nav">
+                                            <ul id="menu-nowe_pgtv_main" class="clearfix">
+                                                <li id="nav-menu-item-6473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home edgtf-menu-narrow edgtf-wide-background"><a href="http://pgtv.pl/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Start</span></span><span class="plus"></span></span></a></li>
+                                                <li id="nav-menu-item-6464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children edgtf-has-sub edgtf-menu-narrow edgtf-wide-background"><a href="http://pgtv.pl/telewizja/" class="edgtf-no-link" style="cursor: default;" onclick="JavaScript: return false;"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Telewizja</span></span><span class="plus"></span></span></a>
+                                                    <div class="edgtf-menu-second">
+                                                        <div class="edgtf-menu-inner">
+                                                            <ul>
+                                                                <li id="nav-menu-item-6780" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/telewizja-24-miesiace/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Telewizja / 24 miesiace</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6533" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/telewizja-12-miesiecy/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Telewizja / 12 miesiecy</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6527" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/telewizja-lista-kanalow/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Lista kanal�w i pakiety</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6912" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/obniz-cene-telewizji-nawet-o-kilkadziesiat-zlotych/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Obniz sobie cene telewizji!</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6907" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/dekodery-tv/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Dekoder TV</span></span><span class="plus"></span></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li id="nav-menu-item-6463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children edgtf-has-sub edgtf-menu-narrow edgtf-wide-background"><a href="http://pgtv.pl/telewizja-internet/" class="edgtf-no-link" style="cursor: default;" onclick="JavaScript: return false;"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Telewizja + Internet</span></span><span class="plus"></span></span></a>
+                                                    <div class="edgtf-menu-second">
+                                                        <div class="edgtf-menu-inner">
+                                                            <ul>
+                                                                <li id="nav-menu-item-6544" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/telewizja-internet-24-miesiace/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Telewizja + Internet / 24 miesiace</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6545" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/telewizja-internet-12-miesiecy/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Telewizja + Internet / 12 miesiecy</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6677" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/telewizja-lista-kanalow/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Lista kanal�w i pakiety</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6908" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/dekodery-tv/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Dekoder TV</span></span><span class="plus"></span></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li id="nav-menu-item-6462" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children edgtf-has-sub edgtf-menu-narrow edgtf-wide-background edgtf-active-item"><a href="http://pgtv.pl/internet/" class="current edgtf-no-link" style="cursor: default;" onclick="JavaScript: return false;"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Internet</span></span><span class="plus"></span></span></a>
+                                                    <div class="edgtf-menu-second">
+                                                        <div class="edgtf-menu-inner">
+                                                            <ul>
+                                                                <li id="nav-menu-item-6790" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6745 current_page_item edgtf-wide-background"><a href="http://pgtv.pl/internet-24-miesiace/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Internet / 24 miesiace</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6692" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/internet-12-miesiecy/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Internet / 12 miesiecy</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6915" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/obniz-cene-internetu-nawet-o-kilkadziesiat-zlotych/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Obniz sobie cene Internetu!</span></span><span class="plus"></span></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li id="nav-menu-item-6599" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-menu-narrow edgtf-wide-background"><a href="http://pgtv.pl/blog/aktualnosci/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Aktualnosci</span></span><span class="plus"></span></span></a></li>
+                                                <li id="nav-menu-item-6461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children edgtf-has-sub edgtf-menu-narrow edgtf-wide-background"><a href="http://pgtv.pl/pgtv/" class="edgtf-no-link" style="cursor: default;" onclick="JavaScript: return false;"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">PGTV</span></span><span class="plus"></span></span></a>
+                                                    <div class="edgtf-menu-second">
+                                                        <div class="edgtf-menu-inner">
+                                                            <ul>
+                                                                <li id="nav-menu-item-6481" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/o-firmie/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">O firmie</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6845" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/dane-teleadresowe/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Dane teleadresowe</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6844" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/otwarta-olesnicka-siec-swiatlowodowa/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Olesnicka Otwarta Siec Swiatlowodowa</span></span><span class="plus"></span></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li id="nav-menu-item-6498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children edgtf-has-sub edgtf-menu-narrow edgtf-wide-background"><a href="http://pgtv.pl/biuro-obslugi-klienta/" class="edgtf-no-link" style="cursor: default;" onclick="JavaScript: return false;"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Biuro Obslugi Klienta</span></span><span class="plus"></span></span></a>
+                                                    <div class="edgtf-menu-second">
+                                                        <div class="edgtf-menu-inner">
+                                                            <ul>
+                                                                <li id="nav-menu-item-7037" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/czy-jestem-w-zasiegu-sieci/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Kiedy bede w zasiegu sieci?</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6779" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/zamowienie-zmiana-uslug/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Zam�wienie / zmiana uslug</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6497" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/faktury-i-platnosci/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Faktury i platnosci</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6635" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/kontakt/reklamacja/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Zlozenie reklamacji</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6496" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/problemy-techniczne/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Zgloszenie awarii lub usterki</span></span><span class="plus"></span></span></a></li>
+                                                                <li id="nav-menu-item-6805" class="menu-item menu-item-type-post_type menu-item-object-page edgtf-wide-background"><a href="http://pgtv.pl/regulaminy-dokumenty-formularze/"><span class="edgtf-item-outer"><span class="edgtf-item-inner"><span class="edgtf-item-text">Regulaminy, dokumenty, formularze</span></span><span class="plus"></span></span></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav>
+
+                                    </div>
+                                </div>
+                                <div class="edgtf-position-right">
+                                    <div class="edgtf-position-right-inner">
+
+                                        <a data-color=000000 data-hover-color=000000 data-icon-close-same-position="yes" style="font-size: 18px;color: 000000" class="edgtf-search-opener" href="javascript:void(0)">
+                                            <i class="edgtf-icon-font-awesome fa fa-search "></i> </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <header class="edgtf-mobile-header">
+                <div class="edgtf-mobile-header-inner">
+                    <div class="edgtf-mobile-header-holder">
+                        <div class="edgtf-grid">
+                            <div class="edgtf-vertical-align-containers">
+                                <div class="edgtf-mobile-menu-opener">
+                                    <a href="javascript:void(0)">
+                                        <span class="edgtf-mobile-opener-icon-holder">
+                        <i class="edgtf-icon-font-awesome fa fa-bars " ></i>                    </span>
+                                    </a>
+                                </div>
+                                <div class="edgtf-position-center">
+                                    <div class="edgtf-position-center-inner">
+
+                                        <div class="edgtf-mobile-logo-wrapper">
+                                            <a href="http://pgtv.pl/" style="height: 83px">
+                                                <img src="http://pgtv.pl/wp-content/uploads/2017/02/170px.png" alt="mobile logo" />
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="edgtf-position-right">
+                                    <div class="edgtf-position-right-inner">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- close .edgtf-vertical-align-containers -->
+                        </div>
+                    </div>
+
+                    <nav class="edgtf-mobile-nav">
+                        <div class="edgtf-grid">
+                            <ul id="menu-nowe_pgtv_main-1" class="">
+                                <li id="mobile-menu-item-6473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home "><a href="http://pgtv.pl/" class=""><span>Start</span></a></li>
+                                <li id="mobile-menu-item-6464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  edgtf-has-sub">
+                                    <h4><span>Telewizja</span></h4><span class="mobile_arrow"><i class="edgtf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-6780" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/telewizja-24-miesiace/" class=""><span>Telewizja / 24 miesiace</span></a></li>
+                                        <li id="mobile-menu-item-6533" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/telewizja-12-miesiecy/" class=""><span>Telewizja / 12 miesiecy</span></a></li>
+                                        <li id="mobile-menu-item-6527" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/telewizja-lista-kanalow/" class=""><span>Lista kanal�w i pakiety</span></a></li>
+                                        <li id="mobile-menu-item-6912" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/obniz-cene-telewizji-nawet-o-kilkadziesiat-zlotych/" class=""><span>Obniz sobie cene telewizji!</span></a></li>
+                                        <li id="mobile-menu-item-6907" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/dekodery-tv/" class=""><span>Dekoder TV</span></a></li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-6463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  edgtf-has-sub">
+                                    <h4><span>Telewizja + Internet</span></h4><span class="mobile_arrow"><i class="edgtf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-6544" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/telewizja-internet-24-miesiace/" class=""><span>Telewizja + Internet / 24 miesiace</span></a></li>
+                                        <li id="mobile-menu-item-6545" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/telewizja-internet-12-miesiecy/" class=""><span>Telewizja + Internet / 12 miesiecy</span></a></li>
+                                        <li id="mobile-menu-item-6677" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/telewizja-lista-kanalow/" class=""><span>Lista kanal�w i pakiety</span></a></li>
+                                        <li id="mobile-menu-item-6908" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/dekodery-tv/" class=""><span>Dekoder TV</span></a></li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-6462" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children edgtf-active-item edgtf-has-sub">
+                                    <h4><span>Internet</span></h4><span class="mobile_arrow"><i class="edgtf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-6790" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6745 current_page_item "><a href="http://pgtv.pl/internet-24-miesiace/" class=""><span>Internet / 24 miesiace</span></a></li>
+                                        <li id="mobile-menu-item-6692" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/internet-12-miesiecy/" class=""><span>Internet / 12 miesiecy</span></a></li>
+                                        <li id="mobile-menu-item-6915" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/obniz-cene-internetu-nawet-o-kilkadziesiat-zlotych/" class=""><span>Obniz sobie cene Internetu!</span></a></li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-6599" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/blog/aktualnosci/" class=""><span>Aktualnosci</span></a></li>
+                                <li id="mobile-menu-item-6461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  edgtf-has-sub">
+                                    <h4><span>PGTV</span></h4><span class="mobile_arrow"><i class="edgtf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-6481" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/o-firmie/" class=""><span>O firmie</span></a></li>
+                                        <li id="mobile-menu-item-6845" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/dane-teleadresowe/" class=""><span>Dane teleadresowe</span></a></li>
+                                        <li id="mobile-menu-item-6844" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/otwarta-olesnicka-siec-swiatlowodowa/" class=""><span>Olesnicka Otwarta Siec Swiatlowodowa</span></a></li>
+                                    </ul>
+                                </li>
+                                <li id="mobile-menu-item-6498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children  edgtf-has-sub">
+                                    <h4><span>Biuro Obslugi Klienta</span></h4><span class="mobile_arrow"><i class="edgtf-sub-arrow fa fa-angle-right"></i><i class="fa fa-angle-down"></i></span>
+                                    <ul class="sub_menu">
+                                        <li id="mobile-menu-item-7037" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/czy-jestem-w-zasiegu-sieci/" class=""><span>Kiedy bede w zasiegu sieci?</span></a></li>
+                                        <li id="mobile-menu-item-6779" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/zamowienie-zmiana-uslug/" class=""><span>Zam�wienie / zmiana uslug</span></a></li>
+                                        <li id="mobile-menu-item-6497" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/faktury-i-platnosci/" class=""><span>Faktury i platnosci</span></a></li>
+                                        <li id="mobile-menu-item-6635" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/kontakt/reklamacja/" class=""><span>Zlozenie reklamacji</span></a></li>
+                                        <li id="mobile-menu-item-6496" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/problemy-techniczne/" class=""><span>Zgloszenie awarii lub usterki</span></a></li>
+                                        <li id="mobile-menu-item-6805" class="menu-item menu-item-type-post_type menu-item-object-page "><a href="http://pgtv.pl/regulaminy-dokumenty-formularze/" class=""><span>Regulaminy, dokumenty, formularze</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </header>
+            <!-- close .edgtf-mobile-header -->
+
+
+
+            <a id='edgtf-back-to-top' href='#'>
+                <span class="edgtf-icon-stack">
+                     <span aria-hidden="true" class="edgtf-icon-font-elegant arrow_carrot-up  " ></span> </span>
+            </a>
+
+            <div class="edgtf-content">
+                <div class="edgtf-content-inner">
+                    <div class="edgtf-title edgtf-standard-type edgtf-preload-background edgtf-has-background edgtf-content-left-alignment edgtf-title-medium-text-size edgtf-animation-no edgtf-title-image-not-responsive edgtf-title-in-grid" style="height:150px;background-image:url(http://pgtv.pl/wp-content/uploads/2017/02/PG_1_back.jpg);"
+                        data-height="150" data-background-width=&quot;1600&quot;>
+                        <div class="edgtf-title-image"><img src="http://pgtv.pl/wp-content/uploads/2017/02/PG_1_back.jpg" alt="&nbsp;" /> </div>
+                        <div class="edgtf-title-holder" style="height:150px;">
+                            <div class="edgtf-container clearfix">
+                                <div class="edgtf-container-inner">
+                                    <div class="edgtf-title-subtitle-holder" style="">
+                                        <div class="edgtf-title-subtitle-holder-inner">
+                                            <h1 style="color:#ffffff;"><span>Internet / 24 miesiace</span></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="edgtf-container">
+                        <div class="edgtf-container-inner clearfix">
+  <script>
+
+  var oplataInstalacyjna = 1;
+  var dekoderCena = 99;
+  var multiroomCena = 9.50;
+
+  var matryca12 = [{
+    "name": "Basic",
+    "kids": false,
+    "muzyka": false,
+    "sport": false,
+    "channels": 75,
+    "0": "107,90",
+    "0_2": "",
+    "50": "114,80",
+    "50_2": "",
+    "100": "120,80",
+    "100_2": "",
+    "200": "128,80",
+    "200_2": "",
+    "300": "138,80",
+    "300_2": "",
+    "600": "150,80",
+    "600_2": "",
+    "1000": "167,80",
+    "1000_2": "",
+    "message": {
+        "0": "Komentarz 1",
+        "50": "Basic 50",
+        "100": "Basic 50",
+        "200": "Basic 200",
+        "300": "Basic 300",
+        "600": "Basic 600",
+        "1000": "Basic 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": true,
+    "sport": true,
+    "channels": 152,
+    "0": "142,15",
+    "0_2": "",
+    "50": "149,05",
+    "50_2": "",
+    "100": "155,05",
+    "100_2": "",
+    "200": "163,05",
+    "200_2": "",
+    "300": "173,05",
+    "300_2": "",
+    "600": "185,05",
+    "600_2": "",
+    "1000": "202,05",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": true,
+    "sport": false,
+    "channels": 140,
+    "0": "131,70",
+    "0_2": "",
+    "50": "138,60",
+    "50_2": "",
+    "100": "144,60",
+    "100_2": "",
+    "200": "152,60",
+    "200_2": "",
+    "300": "162,60",
+    "300_2": "",
+    "600": "174,60",
+    "600_2": "",
+    "1000": "191,60",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": false,
+    "sport": false,
+    "channels": 123,
+    "0": "124,80",
+    "0_2": "",
+    "50": "131,70",
+    "50_2": "",
+    "100": "137,70",
+    "100_2": "",
+    "200": "145,70",
+    "200_2": "",
+    "300": "155,70",
+    "300_2": "",
+    "600": "167,70",
+    "600_2": "",
+    "1000": "184,70",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": true,
+    "sport": true,
+    "channels": 142,
+    "0": "132,25",
+    "0_2": "",
+    "50": "139,15",
+    "50_2": "",
+    "100": "145,15",
+    "100_2": "",
+    "200": "153,15",
+    "200_2": "",
+    "300": "163,15",
+    "300_2": "",
+    "600": "175,15",
+    "600_2": "",
+    "1000": "192,15",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": false,
+    "sport": true,
+    "channels": 135,
+    "0": "138,70",
+    "0_2": "",
+    "50": "145,60",
+    "50_2": "",
+    "100": "151,60",
+    "100_2": "",
+    "200": "159,60",
+    "200_2": "",
+    "300": "169,60",
+    "300_2": "",
+    "600": "181,60",
+    "600_2": "",
+    "1000": "198,60",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": false,
+    "sport": true,
+    "channels": 125,
+    "0": "128,80",
+    "0_2": "",
+    "50": "135,70",
+    "50_2": "",
+    "100": "141,70",
+    "100_2": "",
+    "200": "149,70",
+    "200_2": "",
+    "300": "159,70",
+    "300_2": "",
+    "600": "171,70",
+    "600_2": "",
+    "1000": "188,70",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": true,
+    "sport": false,
+    "channels": 130,
+    "0": "121,80",
+    "0_2": "",
+    "50": "128,70",
+    "50_2": "",
+    "100": "134,70",
+    "100_2": "",
+    "200": "142,70",
+    "200_2": "",
+    "300": "152,70",
+    "300_2": "",
+    "600": "164,70",
+    "600_2": "",
+    "1000": "181,70",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": false,
+    "sport": false,
+    "channels": 113,
+    "0": "114,90",
+    "0_2": "",
+    "50": "121,80",
+    "50_2": "",
+    "100": "127,80",
+    "100_2": "",
+    "200": "135,80",
+    "200_2": "",
+    "300": "145,80",
+    "300_2": "",
+    "600": "157,80",
+    "600_2": "",
+    "1000": "174,80",
+    "1000_2": "",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": true,
+    "sport": true,
+    "channels": 166,
+    "0": "150,70",
+    "0_2": "",
+    "50": "157,60",
+    "50_2": "",
+    "100": "163,60",
+    "100_2": "",
+    "200": "171,60",
+    "200_2": "",
+    "300": "181,60",
+    "300_2": "",
+    "600": "193,60",
+    "600_2": "",
+    "1000": "210,60",
+    "1000_2": "",
+    "message": {
+        "0": "komentarz 2",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": false,
+    "sport": true,
+    "channels": 149,
+    "0": "150,70",
+    "0_2": "",
+    "50": "157,60",
+    "50_2": "",
+    "100": "163,60",
+    "100_2": "",
+    "200": "171,60",
+    "200_2": "",
+    "300": "181,60",
+    "300_2": "",
+    "600": "193,60",
+    "600_2": "",
+    "1000": "210,60",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": true,
+    "sport": false,
+    "channels": 154,
+    "0": "136,80",
+    "0_2": "",
+    "50": "143,70",
+    "50_2": "",
+    "100": "149,70",
+    "100_2": "",
+    "200": "157,70",
+    "200_2": "",
+    "300": "167,70",
+    "300_2": "",
+    "600": "179,70",
+    "600_2": "",
+    "1000": "196,70",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": false,
+    "sport": false,
+    "channels": 137,
+    "0": "136,80",
+    "0_2": "",
+    "50": "143,70",
+    "50_2": "",
+    "100": "149,70",
+    "100_2": "",
+    "200": "157,70",
+    "200_2": "",
+    "300": "167,70",
+    "300_2": "",
+    "600": "179,70",
+    "600_2": "",
+    "1000": "196,70",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": true,
+    "sport": true,
+    "channels": 156,
+    "0": "140,80",
+    "0_2": "",
+    "50": "147,70",
+    "50_2": "",
+    "100": "153,70",
+    "100_2": "",
+    "200": "161,70",
+    "200_2": "",
+    "300": "171,70",
+    "300_2": "",
+    "600": "183,70",
+    "600_2": "",
+    "1000": "200,70",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": false,
+    "sport": true,
+    "channels": 139,
+    "0": "140,80",
+    "0_2": "",
+    "50": "147,70",
+    "50_2": "",
+    "100": "153,70",
+    "100_2": "",
+    "200": "161,70",
+    "200_2": "",
+    "300": "171,70",
+    "300_2": "",
+    "600": "183,70",
+    "600_2": "",
+    "1000": "200,70",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": true,
+    "sport": false,
+    "channels": 144,
+    "0": "126,90",
+    "0_2": "",
+    "50": "133,80",
+    "50_2": "",
+    "100": "139,80",
+    "100_2": "",
+    "200": "147,80",
+    "200_2": "",
+    "300": "157,80",
+    "300_2": "",
+    "600": "169,80",
+    "600_2": "",
+    "1000": "186,80",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": false,
+    "sport": false,
+    "channels": 127,
+    "0": "126,90",
+    "0_2": "",
+    "50": "133,80",
+    "50_2": "",
+    "100": "139,80",
+    "100_2": "",
+    "200": "147,80",
+    "200_2": "",
+    "300": "157,80",
+    "300_2": "",
+    "600": "169,80",
+    "600_2": "",
+    "1000": "186,80",
+    "1000_2": "",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, ];
+var matryca24 = [{
+    "name": "Basic",
+    "kids": false,
+    "muzyka": false,
+    "sport": false,
+    "channels": 75,
+    "0": "85,90",
+    "0_2": "46,90",
+    "50": "90,80",
+    "50_2": "50,80",
+    "100": "95,80",
+    "100_2": "50,80",
+    "200": "102,80",
+    "200_2": "50,80",
+    "300": "111,81",
+    "300_2": "50,80",
+    "600": "121,81",
+    "600_2": "50,80",
+    "1000": "136,80",
+    "1000_2": "50,80",
+    "message": {
+        "0": "Komentarz 1 24",
+        "50": "Basic 50",
+        "100": "Basic 50",
+        "200": "Basic 200",
+        "300": "Basic 300",
+        "600": "Basic 600",
+        "1000": "Basic 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": true,
+    "sport": true,
+    "channels": 152,
+    "0": "112,38",
+    "0_2": "62,38",
+    "50": "117,28",
+    "50_2": "66,27",
+    "100": "122,29",
+    "100_2": "66,27",
+    "200": "129,29",
+    "200_2": "66,27",
+    "300": "138,29",
+    "300_2": "66,27",
+    "600": "148,29",
+    "600_2": "66,27",
+    "1000": "163,28",
+    "1000_2": "66,27",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": true,
+    "sport": false,
+    "channels": 140,
+    "0": "103,89",
+    "0_2": "58,88",
+    "50": "108,78",
+    "50_2": "62,78",
+    "100": "113,79",
+    "100_2": "62,78",
+    "200": "120,79",
+    "200_2": "62,78",
+    "300": "129,79",
+    "300_2": "62,78",
+    "600": "139,79",
+    "600_2": "62,78",
+    "1000": "154,78",
+    "1000_2": "62,78",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": false,
+    "sport": false,
+    "channels": 123,
+    "0": "98,90",
+    "0_2": "55,89",
+    "50": "103,79",
+    "50_2": "59,79",
+    "100": "108,80",
+    "100_2": "59,79",
+    "200": "115,80",
+    "200_2": "59,79",
+    "300": "124,80",
+    "300_2": "59,79",
+    "600": "134,80",
+    "600_2": "59,79",
+    "1000": "149,79",
+    "1000_2": "59,79",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": true,
+    "sport": true,
+    "channels": 142,
+    "0": "104,39",
+    "0_2": "58,39",
+    "50": "109,29",
+    "50_2": "62,29",
+    "100": "114,29",
+    "100_2": "62,29",
+    "200": "121,29",
+    "200_2": "62,29",
+    "300": "130,30",
+    "300_2": "62,29",
+    "600": "140,30",
+    "600_2": "62,29",
+    "1000": "155,29",
+    "1000_2": "62,29",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": true,
+    "muzyka": false,
+    "sport": true,
+    "channels": 135,
+    "0": "109,89",
+    "0_2": "60,88",
+    "50": "114,79",
+    "50_2": "64,78",
+    "100": "119,79",
+    "100_2": "64,78",
+    "200": "126,79",
+    "200_2": "64,78",
+    "300": "135,79",
+    "300_2": "64,78",
+    "600": "145,79",
+    "600_2": "64,78",
+    "1000": "160,79",
+    "1000_2": "64,78",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": false,
+    "sport": true,
+    "channels": 125,
+    "0": "101,90",
+    "0_2": "56,89",
+    "50": "106,79",
+    "50_2": "60,79",
+    "100": "111,80",
+    "100_2": "60,79",
+    "200": "118,80",
+    "200_2": "60,79",
+    "300": "127,80",
+    "300_2": "60,79",
+    "600": "137,80",
+    "600_2": "60,79",
+    "1000": "152,80",
+    "1000_2": "60,79",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": true,
+    "sport": false,
+    "channels": 130,
+    "0": "95,89",
+    "0_2": "54,90",
+    "50": "100,79",
+    "50_2": "58,80",
+    "100": "105,79",
+    "100_2": "58,80",
+    "200": "112,79",
+    "200_2": "58,80",
+    "300": "121,80",
+    "300_2": "58,80",
+    "600": "131,80",
+    "600_2": "58,80",
+    "1000": "146,79",
+    "1000_2": "58,80",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Basic +",
+    "kids": false,
+    "muzyka": false,
+    "sport": false,
+    "channels": 113,
+    "0": "90,90",
+    "0_2": "51,90",
+    "50": "95,80",
+    "50_2": "55,80",
+    "100": "100,81",
+    "100_2": "55,80",
+    "200": "107,80",
+    "200_2": "55,80",
+    "300": "116,81",
+    "300_2": "55,80",
+    "600": "126,81",
+    "600_2": "55,80",
+    "1000": "141,80",
+    "1000_2": "55,80",
+    "message": {
+        "0": "Basic+0 ",
+        "50": "Basic+50",
+        "100": "Basic+100",
+        "200": "Basic+200",
+        "300": "Basic+300",
+        "600": "Basic+ 600",
+        "1000": "Basic+ 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": true,
+    "sport": true,
+    "channels": 166,
+    "0": "118,97",
+    "0_2": "68,97",
+    "50": "123,87",
+    "50_2": "72,87",
+    "100": "123,87",
+    "100_2": "72,87",
+    "200": "135,87",
+    "200_2": "72,87",
+    "300": "144,88",
+    "300_2": "72,87",
+    "600": "154,88",
+    "600_2": "72,87",
+    "1000": "169,87",
+    "1000_2": "72,87",
+    "message": {
+        "0": "komentarz 2",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": false,
+    "sport": true,
+    "channels": 149,
+    "0": "118,97",
+    "0_2": "68,97",
+    "50": "123,87",
+    "50_2": "72,87",
+    "100": "123,87",
+    "100_2": "72,87",
+    "200": "135,87",
+    "200_2": "72,87",
+    "300": "144,88",
+    "300_2": "72,87",
+    "600": "154,88",
+    "600_2": "72,87",
+    "1000": "169,87",
+    "1000_2": "72,87",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": true,
+    "sport": false,
+    "channels": 154,
+    "0": "107,98",
+    "0_2": "63,89",
+    "50": "112,87",
+    "50_2": "67,88",
+    "100": "117,88",
+    "100_2": "67,88",
+    "200": "124,88",
+    "200_2": "67,88",
+    "300": "133,88",
+    "300_2": "67,88",
+    "600": "143,88",
+    "600_2": "67,88",
+    "1000": "158,88",
+    "1000_2": "67,88",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": true,
+    "muzyka": false,
+    "sport": false,
+    "channels": 137,
+    "0": "107,98",
+    "0_2": "63,89",
+    "50": "112,87",
+    "50_2": "67,88",
+    "100": "117,88",
+    "100_2": "67,88",
+    "200": "124,88",
+    "200_2": "67,88",
+    "300": "133,88",
+    "300_2": "67,88",
+    "600": "143,88",
+    "600_2": "67,88",
+    "1000": "158,88",
+    "1000_2": "67,88",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": true,
+    "sport": true,
+    "channels": 156,
+    "0": "110,98",
+    "0_2": "64,98",
+    "50": "115,88",
+    "50_2": "68,88",
+    "100": "120,88",
+    "100_2": "68,88",
+    "200": "127,88",
+    "200_2": "68,88",
+    "300": "136,88",
+    "300_2": "68,88",
+    "600": "146,88",
+    "600_2": "68,88",
+    "1000": "161,88",
+    "1000_2": "68,88",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": false,
+    "sport": true,
+    "channels": 139,
+    "0": "110,98",
+    "0_2": "64,98",
+    "50": "115,88",
+    "50_2": "68,88",
+    "100": "120,88",
+    "100_2": "68,88",
+    "200": "127,88",
+    "200_2": "68,88",
+    "300": "136,88",
+    "300_2": "68,88",
+    "600": "146,88",
+    "600_2": "68,88",
+    "1000": "161,88",
+    "1000_2": "68,88",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": true,
+    "sport": false,
+    "channels": 144,
+    "0": "99,99",
+    "0_2": "59,99",
+    "50": "104,88",
+    "50_2": "63,89",
+    "100": "109,88",
+    "100_2": "63,89",
+    "200": "116,89",
+    "200_2": "63,89",
+    "300": "125,89",
+    "300_2": "63,89",
+    "600": "135,89",
+    "600_2": "63,89",
+    "1000": "150,88",
+    "1000_2": "63,89",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, {
+    "name": "Superb",
+    "kids": false,
+    "muzyka": false,
+    "sport": false,
+    "channels": 127,
+    "0": "99,99",
+    "0_2": "59,99",
+    "50": "104,88",
+    "50_2": "63,89",
+    "100": "109,88",
+    "100_2": "63,89",
+    "200": "116,89",
+    "200_2": "63,89",
+    "300": "125,89",
+    "300_2": "63,89",
+    "600": "135,89",
+    "600_2": "63,89",
+    "1000": "150,88",
+    "1000_2": "63,89",
+    "message": {
+        "0": "Superb 0",
+        "50": "Superb 50",
+        "100": "Superb 100",
+        "200": "Superb 200",
+        "300": "Superb 300",
+        "600": "Superb 600",
+        "1000": "Superb 1000"
+    }
+}, ];
+var matryca = new Array();
+matryca[12] = matryca12;
+matryca[24] = matryca24;
+
+ 
+  var canalPlusCena= []
+   
+   canalPlusCena[120] = 0;
+   canalPlusCena[240] = 0;
+   canalPlusCena[121] = 121;
+   canalPlusCena[122] = 122;
+   canalPlusCena[241] = 241;
+   canalPlusCena[242] = 242;
+
+   var canalPlusCena0= []
+   
+   canalPlusCena0[120] = 0;
+   canalPlusCena0[240] = 0;
+   canalPlusCena0[121] = 1210;
+   canalPlusCena0[122] = 1220;
+   canalPlusCena0[241] = 2410;
+   canalPlusCena0[242] = 2420;
+
+  var canalPlusKanaly = new Array();
+  canalPlusKanaly[0] = 0;
+  canalPlusKanaly[1] = 6;
+  canalPlusKanaly[2] = 8;
+
+/*
+  var matryca[12] = matryca12;
+  var matryca[24] = matryca24;*/
+  </script>
+
+
+  <style>
+      .field-radio {
+          min-height: 30px;
+          margin: .3em 0;
+      }
+
+      .container-radio {
+          position: relative;
+          display: inline-block;
+          overflow: hidden;
+          width: 30px;
+          height: 30px;
+          vertical-align: middle;
+          background-color: #ccc;
+      }
+
+      input[type=radio] {
+          margin: 0;
+          margin: 8px;
+          padding: 0;
+      }
+
+      .fake-radio {
+
+
+          width: 30px;
+          height: 30px;
+          background-repeat: no-repeat;
+          background-position: 0 0;
+      }
+
+      input:checked+.fake-radio {
+          background-position: 0 -35px;
+      }
+
+      .fake-radio {
+          background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABBCAIAAABJioPXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDdDQzI2NjYyNUY0MTFFNzg1OUM5NzkzRDkwQjhBQjIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDdDQzI2NjcyNUY0MTFFNzg1OUM5NzkzRDkwQjhBQjIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEN0NDMjY2NDI1RjQxMUU3ODU5Qzk3OTNEOTBCOEFCMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEN0NDMjY2NTI1RjQxMUU3ODU5Qzk3OTNEOTBCOEFCMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PulUBjYAAASQSURBVHja7JdtSGRlFMfv2ziTsrlmZhIhhoTrKgTpuCKDqc2yEFEQiZmKm4QfJFxX2pX6GIVt7LIiBmVjYuaKsRFEsGm+MZjL6MBGSlKiySI2mZmErvNy7/S/TnjvPXfe7sR+COZBxuE8z/nd8zzP/5wzlz04OGDuz+CY+zb+n2gh+vTe3t7i4uLKysrGxkYgEBAEITc3t6CgoKSkJD09PbovG+kat7e3R0dHJyYmInna7fa6urqsrCxjaKfT2dPT4/P5oseVkpLS3t5us9niRY+NjQ0PD8d/pg0NDbW1tbGvcXZ21hAXA+vhFQO9s7PT29ubgBjgBd9oChkaGtKfb2ZmZn19fVFRUU5OztbW1tLS0sjICAHBC74dHR3hzxqrW1paJElST5eXl+OiUlNT1Ua44JLn5+c12+c4h8OBOMIciMvlIlwIS8/FgAV2Ijv4ghD+rLFTgmhqatJzj+nNzc3ESAgK2uPxkKVlZWVRrq60tJRYCEFBe71ekg4WiyUKGrNYo7YQgoI2m83k0g8PD6OgMUvkRAgKOjs7mzgvLCxEQbvdbmIhBAVdWFhIlg4ODkYqXrAPDAwQIyEoaKvVCm2S4gf96o8FFtgxS3QNQvhshE5Rw0g1QF6sra0hGxER9gsNoHajaOjlVFlZSZSuqXwIpLW1FSXfcEMRhP7+fnUq0vIUSr8EyhO8CDdMUcW+sH1DXKyHV7xdZnp6uq+vL54u09bWVlVVZbg3onhOTk5G4tbU1CBew73xeOzu7qKera6urq+vo7ZBYXl5efn5+dBZRkZGgh09+cMsiU6ik+j//sIR3PlLmrotuZeDK2uMz8+kmNiCJ7inT3PVZ9jMkwmWp+CmJ3B9SBz9JpInX/eccKGJfSzbGFr8esp/8X3m0Btjzxaz6dpl/vnqeNGB3s8CVxwGzvRSi/BGY+xrFL/6zhBXDuWKA14xog7+9ofX9mrscwh3Mmbn5+yjD0eMOtD9sZ4LB9MHb8LTcncGn/hOEEc/qLyyb6So5ZDP1DKi5sWAP2czXetiTqRpnP7e91/sFm85tYrhzLfH1E9VopYm5ggXwjrmBn/5VZpx4fHyxIk02KnsREkmhD0Qaf4HevVdr4e4iNFb3exrvISbEG+Oh+jC261kPSEo6ODdLZoU9go5mi9u4e/4TP1dV0Ox89XlNMu0BBWaXKDFzKQ9IMfiXiY3Jt35Sf6CWYvmNYAQFDSrXSdLZf/e0Yk/oteM/A+zWhYhqNCP59D0mZJfOvnGF9RT/EtnuadOybMzLvpILUGpfJy1GKVDI/N3P+KfKWNPPmj+9pPA4JfBzd+50mKgQ/oLvPMhzWxrcQRdb3q8Fa+E0fX1t0KHroz9e/4L74XR9dwNtSI5tYr1NQz+XvtrEFzo9vGJciFbCBfkF58lStfWEARua2D8fsM1xGQyf38jWg05Sr/LCfQqeOkLC6ffl9B53lgP7DwPr7i7zM1xZF1cXaa781/NGOuNVz9VUlzfG18+h3gN90blAdt/SuNz0o8/B5dXGVFkeJ49nc8VP8mdrWCzHkq+cBga/wgwAOT0PBdneKiwAAAAAElFTkSuQmCC);
+      }
+  </style>
+
+
+</div>
+
+                          <div id='root'>
+                          </div>
+                          <script src="bundle.js"></script>
+                        </div>
+                    </div>
+                    <!-- close div.content -->
+
+                    <footer>
+                        <div class="edgtf-footer-inner clearfix">
+
+
+                            <div class="edgtf-footer-top-holder">
+                                <div class="edgtf-footer-top edgtf-footer-top-aligment-left">
+
+                                    <div class="edgtf-container">
+                                        <div class="edgtf-container-inner">
+
+                                            <div class="edgtf-four-columns clearfix">
+                                                <div class="edgtf-four-columns-inner">
+                                                    <div class="edgtf-column">
+                                                        <div class="edgtf-column-inner">
+                                                            <div id="text-2" class="widget edgtf-footer-column-1 widget_text">
+                                                                <h3 class="edgtf-footer-widget-title">Kontakt</h3>
+                                                                <div class="textwidget">
+                                                                    <p>PGTV Sp. z o.o.
+                                                                        <br /> ul. Antoniego Slonimskiego 6
+                                                                        <br /> 50-304 Wroclaw</p>
+                                                                </div>
+                                                            </div>
+                                                            <a class="edgtf-social-icon-widget-holder" style="color: ffffff;font-size: 16px" href="https://twitter.com/?lang=pl" target="_self">
+                                                                <i class="edgtf-social-icon-widget fa fa-twitter"></i> </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="edgtf-column">
+                                                        <div class="edgtf-column-inner">
+                                                            <div id="text-4" class="widget edgtf-footer-column-2 widget_text">
+                                                                <h3 class="edgtf-footer-widget-title">Na skr�ty</h3>
+                                                                <div class="textwidget">
+                                                                    <p><a href=chce-zlozyc-zamowienie> Chce zlozyc zam�wienie </a>
+                                                                        <br />
+                                                                        <a href=biuro-obslugi-klienta> Biuro Obslugi Klienta </a>
+                                                                        <br />
+                                                                        <a href=faktury-i-platnosci> Faktury i platnosci </a></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="edgtf-column">
+                                                        <div class="edgtf-column-inner">
+                                                        </div>
+                                                    </div>
+                                                    <div class="edgtf-column">
+                                                        <div class="edgtf-column-inner">
+                                                            <div id="wysija-2" class="widget edgtf-footer-column-4 widget_wysija">
+                                                                <h3 class="edgtf-footer-widget-title">PGTV Newsletter</h3>
+                                                                <div class="widget_wysija_cont">
+                                                                    <div id="msg-form-wysija-2" class="wysija-msg ajax"></div>
+                                                                    <form id="form-wysija-2" method="post" action="#wysija" class="widget_wysija">
+                                                                        <p class="wysija-paragraph">
+                                                                            <label>Email <span class="wysija-required">*</span></label>
+
+                                                                            <input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="Email" value="" />
+
+
+
+                                                                            <span class="abs-req">
+        <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+    </span>
+
+                                                                        </p>
+                                                                        <input class="wysija-submit wysija-submit-field" type="submit" value="Zapisz sie!" />
+
+                                                                        <input type="hidden" name="form_id" value="1" />
+                                                                        <input type="hidden" name="action" value="save" />
+                                                                        <input type="hidden" name="controller" value="subscribers" />
+                                                                        <input type="hidden" value="1" name="wysija-page" />
+
+
+                                                                        <input type="hidden" name="wysija[user_list][list_ids]" value="1" />
+
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="edgtf-footer-bottom-holder">
+                                <div class="edgtf-footer-bottom-holder-inner">
+                                    <div class="edgtf-container">
+                                        <div class="edgtf-container-inner">
+
+                                            <div class="edgtf-column-inner">
+                                                <div id="text-3" class="widget edgtf-footer-text widget_text">
+                                                    <div class="textwidget">� Copyright 2017 / PGTV Sp. z o.o.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </footer>
+
+                </div>
+                <!-- close div.edgtf-wrapper-inner  -->
+            </div>
+            <!-- close div.edgtf-wrapper -->
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/call-to-action-popup/js/bootstrap.min.js?ver=3.3.7'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/call-to-action-popup/js/jquery-cookie-master/jquery.cookie.js?ver=1.4.1'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var cactus_popup = {
+                    "ajaxurl": "http:\/\/pgtv.pl\\/wp-admin\/admin-ajax.php"
+                };
+                /* ]]> */
+            </script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/call-to-action-popup/js/popup.js?ver=20172501'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var _wpcf7 = {
+                    "recaptcha": {
+                        "messages": {
+                            "empty": "Potwierd\u017a, \u017ce nie jeste\u015b robotem."
+                        }
+                    }
+                };
+                /* ]]> */
+            </script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.7'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/jquery/ui/accordion.min.js?ver=1.11.4'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var mejsL10n = {
+                    "language": "pl-PL",
+                    "strings": {
+                        "Close": "Zamknij",
+                        "Fullscreen": "Pe\u0142ny ekran",
+                        "Turn off Fullscreen": "Wy\u0142\u0105cz pe\u0142ny ekran",
+                        "Go Fullscreen": "W\u0142\u0105cz pe\u0142ny ekran",
+                        "Download File": "Pobierz plik",
+                        "Download Video": "Pobierz film",
+                        "Play": "Odtw\u00f3rz",
+                        "Pause": "Pauza",
+                        "Captions\/Subtitles": "Napisy",
+                        "None": "None",
+                        "Time Slider": "Slider Czasu",
+                        "Skip back %1 seconds": "Przewi\u0144 o %1 sekund do ty\u0142u",
+                        "Video Player": "Odtwarzacz video",
+                        "Audio Player": "Odtwarzacz muzyki",
+                        "Volume Slider": "Suwak g\u0142o\u015bno\u015bci",
+                        "Mute Toggle": "Prze\u0142\u0105cz wyciszenie",
+                        "Unmute": "W\u0142\u0105cz dzwi\u0119k",
+                        "Mute": "Wycisz",
+                        "Use Up\/Down Arrow keys to increase or decrease volume.": "U\u017cywaj strza\u0142ek do g\u00f3ry\/do do\u0142u aby zwi\u0119kszy\u0107 lub zmniejszy\u0107 g\u0142o\u015bno\u015b\u0107.",
+                        "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.": "U\u017cyj strza\u0142ek lewo\/prawo aby przesun\u0105\u0107 o sekund\u0119 do przodu lub do ty\u0142u, strza\u0142ek g\u00f3ra\/d\u00f3\u0142 aby przesun\u0105\u0107 o dziesi\u0119\u0107 sekund."
+                    }
+                };
+                var _wpmejsSettings = {
+                    "pluginPath": "\\/wp-includes\/js\/mediaelement\/"
+                };
+                /* ]]> */
+            </script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.7.3'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/themes/vangard/assets/js/third-party.min.js?ver=4.7.3'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=5.0.1'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/themes/vangard/assets/js/smoothPageScroll.js?ver=4.7.3'></script>
+            <script type='text/javascript' src='//maps.googleapis.com/maps/api/js?key=AIzaSyDRM2TCZtjmtmjD5FvrZkOPfJzNL7bKBtY&#038;ver=4.7.3'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var edgtfGlobalVars = {
+                    "vars": {
+                        "edgtfAddForAdminBar": 0,
+                        "edgtfElementAppearAmount": -150,
+                        "edgtfFinishedMessage": "No more posts",
+                        "edgtfLoadingMoreText": "Loading...",
+                        "edgtfMessage": "Loading new posts...",
+                        "edgtfLoadMoreText": "Show More",
+                        "edgtfAddingToCart": "Adding to Cart...",
+                        "edgtfFirstColor": "#ee1336",
+                        "edgtfTopBarHeight": 0,
+                        "edgtfStickyHeaderHeight": 0,
+                        "edgtfStickyHeaderTransparencyHeight": 120,
+                        "edgtfStickyScrollAmount": 0,
+                        "edgtfLogoAreaHeight": 0,
+                        "edgtfMenuAreaHeight": 130,
+                        "edgtfMobileHeaderHeight": 60
+                    }
+                };
+                var edgtfPerPageVars = {
+                    "vars": {
+                        "edgtfStickyScrollAmount": 0,
+                        "edgtfHeaderTransparencyHeight": 130
+                    }
+                };
+                /* ]]> */
+            </script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/themes/vangard/assets/js/modules.min.js?ver=4.7.3'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var edgtfLike = {
+                    "ajaxurl": "http:\/\/pgtv.pl\\/wp-admin\/admin-ajax.php"
+                };
+                /* ]]> */
+            </script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/themes/vangard/assets/js/like.min.js?ver=1.0'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-includes/js/wp-embed.min.js?ver=4.7.3'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-pl.js?ver=2.7.8'></script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.7.8'></script>
+            <script type='text/javascript'>
+                /* <![CDATA[ */
+                var wysijaAJAX = {
+                    "action": "wysija_ajax",
+                    "controller": "subscribers",
+                    "ajaxurl": "http:\/\/pgtv.pl\\/wp-admin\/admin-ajax.php",
+                    "loadingTrans": "\u0141aduj\u0119...",
+                    "is_rtl": ""
+                };
+                /* ]]> */
+            </script>
+            <script type='text/javascript' src='http://pgtv.pl/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7.8'></script>
+
+
+
+</body>
+
 </html>
