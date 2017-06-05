@@ -1,117 +1,15 @@
-import React, {Component} from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
-import Header from './Header.jsx';
-import Form from './Form.jsx';
+ import React, {Component} from 'react';
+class Podsumowanie extends Component {
 
-class PGTV_SUMMARY extends Component {
-
-  constructor() {
-    super();
-    //this.state = this.props.stan;
-
-    this.state = {
-      nazwisko: 'Rusnak',
-      imie: 'Adam',
-      telefon: '83923398',
-      miejscowosc: 'Wrocław',
-      ulica: 'Chrobrego',
-      numerDomuMieszkania: '54',
-      keyGoogle: false
-    }
-    /*     jQuery('.edgtf-page-header').hide();
-      jQuery('.edgtf-title').hide();
-      jQuery('.logoPGTV').show();*/
-
-  }
-
-  onChangeReCAPTCHA(value) {
-
-    this.setState({keyGoogle: value})
-    //console.log(value);
-  }
-
-  clickButton() {
-    this.setState({strona: 1});
-  }
-
-  clickZgodaMarketingowa() {
-    this.setState({
-      zgodaMarketingowa: !this.state.zgodaMarketingowa
-    });
-  }
-
-  imie(e) {
-
-    this.setState({imie: e.target.value})
-  }
-
-  nazwisko(e) {
-    this.setState({nazwisko: e.target.value})
-  }
-
-  telefon(e) {
-    this.setState({telefon: e.target.value})
-  }
-
-  miejscowosc(e) {
-    this.setState({miejscowosc: e.target.value})
-  }
-
-  ulica(e) {
-    this.setState({ulica: e.target.value})
-  }
-
-  email(e) {
-    this.setState({email: e.target.value})
-  }
-
-  numerDomuMieszkania(e) {
-    this.setState({numerDomuMieszkania: e.target.value})
-  }
-
-  sendButton() {
-
-    if ((this.state.imie !== "") && (this.state.naziwsko !== "") && (this.state.telefon !== "")) {
-      //      var wszystko = this.state;
-
-      if (this.state.keyGoogle) {
-        /* jQuery.ajax({
-            type: 'POST',
-            url: 'http://pgtv.pl/wyslij_formularz_zgloszeniowy.php',
-            data: wszystko,
-            success: function(result){
-
-              console.log(result.status);
-              if(result.status !== "")
-              {
-                window.location.href="http://pgtv.pl/zgloszenie-zostalo-wyslane/";
-
-              }
-            }
-          })*/
-      }
-
-      this.setState({keyGoogle: false});
-
-    }
-  }
-
-  render() {
-
+render() {
     return (
-      <div>
-        <div className="container">
-         <Header></Header>
-          <div className="row">
-           <Form></Form>
-            <div className="col-md-3 paddingZero">
+ 
+ <div className="col-md-3 paddingZero">
               <input
                 type="button"
                 value="< Cofnij"
                 className="wpcf7-form-control wpcf7-submit padding15"
-                onClick={this
-                .clickButton
-                .bind(this)}/>
+                />
               <h3 className="podsumowanie">
                 <b>Podsumowanie</b>
               </h3>
@@ -267,14 +165,7 @@ class PGTV_SUMMARY extends Component {
                 disabled={this.state.zgodaMarketingowa
                 ? null
                 : "disabled"}
-                onClick={this
-                .sendButton
-                .bind(this)}/>
+                />
 
-            </div>
-
-          </div>
-        </div>
-        <div></div>
-      </div>
-     ) }}
+    </div> )}}
+      export default Podsumowanie;
