@@ -1,6 +1,47 @@
  import React, {Component} from 'react';
 class Podsumowanie extends Component {
 
+constructor(){
+  this.state = {
+          strona: 1,
+           imie: "",
+           nazwisko: "",
+           telefon: "",
+           email: "",
+           miejscowosc: "",
+           ulica: "",
+           numerDomuMieszkania: "",
+           wybranyPakiet_miesiace: "24",
+           wybranyPakiet_kids:      false,
+           wybranyPakiet_muzyka:     false,
+           wybranyPakiet_sport:      false,
+           wybranyPakiet_name:       "Basic +",
+           wybranyPakiet_internet:   "50",
+           wybranyPakiet_cena: 20,
+           wybranyPakiet_cena2: 20,
+           wybranyPakiet_liczbaKanalow: 2,
+           wybranyPakiet_komunikat:"test",
+           wybranyPakiet_multiroom: false,
+           wybranyPakiet_faktura: true,
+           matryca: matryca,
+           eleven: true,
+           elevenSport: false,
+           elevenExtra: false,
+           wszystkieEleven: false,
+           canalPlus: 0,
+           rangeValue: 1,
+           canalPlusCena: 0,
+           canalPlusCena0: 0, //cena przez 3 miesiace
+           canalPlusKanaly: 0,
+           multiroomLiczba: 0,
+           multiroomCena: 10,
+           oplataInstalacyjna: 99,
+           dekoderCena: dekoderCena, 
+           zgodaMarketingowa: false,
+           keyGoogle: false
+
+      }
+}
 render() {
     return (
  
