@@ -1,0 +1,843 @@
+body {
+    font: 16px/1 sans-serif;
+    letter-spacing: normal !important;
+}
+
+
+#root {
+    height: 100%;
+}
+.calculator > label {
+    font-size: 20px;
+    margin: 5px;
+      letter-spacing: normal !important;
+}
+
+.blokTloPierwszy
+{
+ margin-top: 0px !important;
+   letter-spacing: normal !important;
+}
+
+.blokTlo {
+    background-image: url("http://pgtv.pl/wp-content/plugins/wp-pgtv-kalkulator/assets/img/bg_top.png");
+    padding-left: 10px;
+    margin-top: 2px;
+    padding-top: 10px;
+    height: 107px;
+    font-size: 16px;
+    margin-top: 20px;
+      letter-spacing: normal !important;
+
+}
+
+.moreInfo > a{
+  color:grey;
+}
+
+.blokTlo3 {
+  background-color: #f6f6f6;
+  border-bottom: 5px solid #e7e7e7;
+    padding-left: 10px;
+    margin-top: 2px;
+    padding-top: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+      letter-spacing: normal !important;
+
+}
+.marginTop5
+{
+  margin-top:5px;
+}
+.canalPlus{
+  margin-top:-4px;
+  margin-left: 5px;
+    letter-spacing: normal !important;
+}
+.bezCanalPlus{
+  margin-bottom: 10px;
+    letter-spacing: normal !important;
+}
+.blokTlo4{
+  background-color: #f6f6f6;
+  border-bottom: 5px solid #e7e7e7;
+  padding-left: 10px;
+  margin-top: 2px;
+  padding-top: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+    letter-spacing: normal !important;
+
+}
+
+.poleObowiazkowe{
+  color: grey;
+}
+
+.dymek {
+  margin-left: -51px;
+  margin-top: -10px;
+  height: 80px;
+    letter-spacing: normal !important;
+}
+
+.pakietLabel2 img{
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+border: 1px solid #ececec ;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+      letter-spacing: normal !important;
+}
+
+.canalPlusOdstep{
+  width: 250px;
+  height: 30px;
+  margin-top: 8px;
+}
+
+
+section
+{
+  text-align: left;
+  padding-left: 11px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+section a
+{
+  color: grey;
+  font-size: 11px;
+
+}
+section img{
+  float:right;
+  margin-right:10px !important;
+}
+
+.logoPGTV{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+    letter-spacing: normal !important;
+    display: none;
+}
+.margin-left15
+{
+  padding-left: 15px;
+
+}
+
+.arrow1{
+  width: 20px !important;
+  height: 11px !important;
+  border: 0px !important;
+}
+
+.padding-top15{
+  padding-top: 15px;
+}
+.pakietLabel3 img{
+  width: 50px;
+  height: 50px;
+    margin-top: -5px;
+    font-family: Roboto, sans-serif;
+}
+.height300{
+  height:300px;
+  font-family: Roboto, sans-serif;
+}
+
+.mh0{
+  margin-top: 0px;
+  font-family: Roboto, sans-serif;
+  padding-left: 10px;
+  font-size: 20px;
+    letter-spacing: normal !important;
+}
+.pakietLabel img{
+  width: 50px;
+  height: 50px;
+    border: 1px solid #ececec ;
+    margin: 1px;
+  font-family: Roboto, sans-serif;
+
+}
+
+
+
+.disabledWyslij{
+  background-color: #878787 !important;
+  border: 1px solid #878787 !important;
+}
+
+.zgoda{
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+
+.skylight-dialog{
+  height: auto !important;
+  top: 20% !important;
+  /*top: 20px !important;
+  left: 36% !important;
+  width: 80% !important;*/
+  width: auto !important;
+  z-index: 9999999 !important;
+  margin-top: 0px !important;
+}
+
+.skyLine img{
+  width: 40px;
+  height: 40px;
+  font-family: Roboto, sans-serif;
+
+}
+
+
+.skyLine70 img{
+  margin-right:20px;
+  width: 55px;
+  height: 55px;
+  font-family: Roboto, sans-serif;
+  float: none !important;
+
+}
+
+.skylineKids{
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skylineMuzyka{
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skylineSport{
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skylineSport > img {
+  float: none !important;
+}
+.blokTlo > label{
+   margin-right: 15px;
+   font-family: Roboto, sans-serif;
+   font-weight: normal !important;
+}
+
+.prendkoscInternetu {
+
+    background-image: url("http://pgtv.pl/wp-content/plugins/wp-pgtv-kalkulator/assets/img/bg_top.png");
+    padding-left: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 107px;
+
+      letter-spacing: normal !important;
+}
+
+.miesiace{
+  margin-left:5px;
+  margin-top:5px;
+    letter-spacing: normal !important;
+}
+
+.naj{
+  position: absolute;
+  top: -20px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+    letter-spacing: normal !important;
+
+}
+.clear {
+    clear: both;
+}
+
+
+.komunikat2{
+  margin-bottom: 0px;
+}
+.centered
+{
+  text-align: center;
+}
+
+.h3calc{
+  margin-top:5px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.h2calc{
+  font-size: 25px;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.h4calc{
+  font-size:15px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.selected{
+  border: 2px solid #ee1336;
+  color: #ee1336;
+  padding: 5px !important;
+}
+
+.selectedBtn{
+  color: #ee1336;
+  padding: 5px !important;
+}
+
+.pakiet1{
+  background-color: white;
+  margin-top: 20px !important;
+  padding-top: 5px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.pakiet2{
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  margin-top: 20px !important;
+  padding-top: 5px;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+    letter-spacing: normal !important;
+}
+
+
+
+.pakietLabel{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#eaeaea, #f4f4f4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#eaeaea, #f4f4f4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#eaeaea, #f4f4f4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#eaeaea, #f4f4f4); /* Standard syntax */
+  font-family: Roboto, sans-serif;
+  margin: 0 !important;
+  width: 100%;
+    letter-spacing: normal !important;
+}
+
+.fullWidth{
+  width:100%;
+}
+
+.wybieram{
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  padding-top:5px;
+  background-image: url("http://pgtv.pl/wp-content/plugins/wp-pgtv-kalkulator/assets/img/bg_top.png");
+    letter-spacing: normal !important;
+    color: black;
+}
+
+.listaKanalowPakietu{
+  font-size:10px;
+font-family: Roboto, sans-serif;
+  color: silver;
+  width:100%;
+  background-color: white;
+
+}
+
+
+.podsumowanie{
+  background-image: url("http://pgtv.pl/wp-content/plugins/wp-pgtv-kalkulator/assets/img/podsumowanie_background.png");
+  height: 47px;
+  margin-top:0px;
+  padding: 11px;
+  width: 100%;
+  margin-bottom: 4px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.tytulGrey{
+  color: #bababa;
+  font-weight: normal;
+  font-size: 17px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.wybierzOdpowiedniPakiet{
+  margin-top: 5px;
+  color: #bababa;
+font-family: Roboto, sans-serif;
+  letter-spacing: normal !important;
+}
+h3, h2, h1, h4, h5, h6{
+  letter-spacing: normal !important;p
+}
+.colorGrey{
+  color: grey;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+
+.prendkoscInternetu > label{
+  margin-left: 20px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.miesiace > label{
+  font-size: normal;
+  margin-left: 20px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.h4podsumowanie{
+  font-size: 14px;
+  font-weight: bold;
+font-family: Roboto, sans-serif;
+  letter-spacing: normal !important;
+}
+
+.podsumowanieBox{
+  background-color: #eee;
+  padding: 2px 15px 2px 15px;
+    letter-spacing: normal !important;
+  font-family: Roboto, sans-serif;
+  margin-top:5px;
+}
+#edgtf-back-to-top{
+  visibility: hidden;
+  display: none;
+}
+.podsumowanieBox2{
+  background-color: #eee;
+  padding: 2px 15px 2px 15px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+
+}
+
+.pakietyName{
+      margin-bottom: -10px;
+      font-size: 20px;
+      padding-left: 10px;
+}
+
+.komunikat{
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  color: #ee1336;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+    line-height: 1.5;
+}
+
+.sprzedawca{
+  background-image: url('http://pgtv.pl/wp-content/plugins/wp-pgtv-kalkulator/assets/img/doradca.png');
+  width: 116px;
+  height: 150px;
+  position: absolute;
+  right: 20px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.paddingTop200{
+  margin-top: 159px;
+}
+.malaCena{
+font-family: Roboto, sans-serif;
+  letter-spacing: normal !important;
+}
+
+
+.inputForm{
+  margin-left: 10px;
+}
+
+.inputPadding{
+  width: 100px;
+  float: left;
+  text-align: center;
+}
+
+.moreInfo{
+  padding-top: 15px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.marginTop{
+  margin-top: 5px;
+}
+
+.cenaKolor{
+  font-weight: bold;
+  color: #ee1336;
+  margin-top:0px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: normal !important;
+  font-size:38px;
+}
+.padding0{
+  padding-left: 0;
+}
+
+
+.marginBottom4{
+  margin-bottom: 4px;
+}
+.kidsWrapper > section > div.skylight-dialog
+{
+  width: 370px !important;
+}
+
+.muzykaWrapper > section > div.skylight-dialog
+{
+  width: 370px !important;
+}
+
+.sportWrapper > section > div.skylight-dialog
+{
+  width: 450px !important;
+}
+
+.skylight-dialog{
+    right: 0 !important;
+    margin-left: auto!important;
+    left: 0 !important;
+    margin-right: auto !important;
+    width: 1010px !important;
+}
+
+.wirtualnySprzedawca{
+  font-size: 19px;
+  margin-top: 0px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+.cenaWielkoscPo{
+  /* font-weight: bold; */
+  color: grey;
+  font-size: 17px;
+  margin-top:0px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.paddingZero{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.textAreaForm{
+  width:100%;
+  height: 120px;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.space{
+  margin-bottom: 100px;
+}
+footer .edgtf-footer-top:not(.edgtf-footer-top-full) .edgtf-container-inner {
+padding: 0px;
+}
+.padding15{
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+
+  height: 50px !important;
+  width: 100% !important;
+}
+
+.labelForm{
+  padding: 20px;
+  background-image: url('http://pgtv.pl/wp-content/plugins/wp-pgtv-kalkulator/assets/img/filedBackground.png');
+  height: 68px;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+    letter-spacing: normal !important;
+}
+
+.backgroundTextArea{
+  padding: 20px;
+  background: -webkit-linear-gradient(#eaeaea, #f4f4f4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#eaeaea, #f4f4f4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#eaeaea, #f4f4f4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#eaeaea, #f4f4f4); /* Standard syntax */
+
+}
+
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.styled-select.slate {
+   background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+   height: 34px;
+   width: 240px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 16px;
+   height: 34px;
+   width: 268px;
+}
+
+
+.labelText
+{
+  margin-top: 10px;
+
+}
+
+.selectedLabel{
+  color: #ee1336;
+}
+/*RANGE SLIDER START */
+
+
+.range{
+
+margin-left:7.14%;
+margin-right:7.14%;
+}
+
+.rangeInput{
+  background-color: #f3f3f3;
+}
+.range-scale{
+
+}
+.scale-first
+{
+  width: 14.2%;
+  border-left: 3px solid grey;
+  margin-top:-10px;
+  border-right: 3px solid grey;
+  border-top: 3px solid grey;
+  float:left;
+  cursor: pointer;
+}
+
+
+.pointer{
+  cursor: pointer;
+}
+.scale
+{
+  height: 20px;
+  width: 14.2%;
+
+  border-top: 3px solid grey;
+      margin-top:-10px;
+  border-right: 3px solid grey;
+  float:left;
+  cursor: pointer;
+}
+.chce{
+  margin-top: 4px !important;
+}
+.button30px
+{
+  height: 40px !important;
+  border: 0px solid #ececec !important;
+  width: 40px !important;
+}
+
+input[type=range] {
+    /*removes default webkit styles*/
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    border: none;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ee1336;
+    margin-top: -4px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+
+}
+
+input[type=range]::-moz-range-track {
+    border: none;
+}
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ee1336;
+}
+
+/*hide the outline behind the border*/
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+
+input[type=range]::-ms-track {
+
+
+    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
+    background: transparent;
+
+    /*leave room for the larger thumb to overflow with a transparent border */
+    border-color: transparent;
+    border-width: 6px 0;
+
+    /*remove default tick marks*/
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+
+}
+input[type=range]::-ms-fill-upper {
+
+}
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #ee1336;
+}
+input[type=range]:focus::-ms-fill-lower {
+
+}
+input[type=range]:focus::-ms-fill-upper {
+
+}
+
+.field-radio {
+         min-height: 30px;
+         margin: .3em 0;
+     }
+
+     .container-radio {
+         position: relative;
+         display: inline-block;
+         overflow: hidden;
+         width: 30px;
+         height: 30px;
+         vertical-align: middle;
+         background-color: #ccc;
+     }
+
+     input[type=radio] {
+         margin: 0;
+         margin: 8px;
+         padding: 0;
+     }
+
+     .fake-radio {
+
+
+         width: 30px;
+         height: 30px;
+         background-repeat: no-repeat;
+         background-position: 0 0;
+     }
+
+     input:checked+.fake-radio {
+         background-position: 0 -35px;
+     }
+
+     .fake-radio {
+         background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAABBCAIAAABJioPXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTMyIDc5LjE1OTI4NCwgMjAxNi8wNC8xOS0xMzoxMzo0MCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUuNSAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDdDQzI2NjYyNUY0MTFFNzg1OUM5NzkzRDkwQjhBQjIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDdDQzI2NjcyNUY0MTFFNzg1OUM5NzkzRDkwQjhBQjIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEN0NDMjY2NDI1RjQxMUU3ODU5Qzk3OTNEOTBCOEFCMiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEN0NDMjY2NTI1RjQxMUU3ODU5Qzk3OTNEOTBCOEFCMiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PulUBjYAAASQSURBVHja7JdtSGRlFMfv2ziTsrlmZhIhhoTrKgTpuCKDqc2yEFEQiZmKm4QfJFxX2pX6GIVt7LIiBmVjYuaKsRFEsGm+MZjL6MBGSlKiySI2mZmErvNy7/S/TnjvPXfe7sR+COZBxuE8z/nd8zzP/5wzlz04OGDuz+CY+zb+n2gh+vTe3t7i4uLKysrGxkYgEBAEITc3t6CgoKSkJD09PbovG+kat7e3R0dHJyYmInna7fa6urqsrCxjaKfT2dPT4/P5oseVkpLS3t5us9niRY+NjQ0PD8d/pg0NDbW1tbGvcXZ21hAXA+vhFQO9s7PT29ubgBjgBd9oChkaGtKfb2ZmZn19fVFRUU5OztbW1tLS0sjICAHBC74dHR3hzxqrW1paJElST5eXl+OiUlNT1Ua44JLn5+c12+c4h8OBOMIciMvlIlwIS8/FgAV2Ijv4ghD+rLFTgmhqatJzj+nNzc3ESAgK2uPxkKVlZWVRrq60tJRYCEFBe71ekg4WiyUKGrNYo7YQgoI2m83k0g8PD6OgMUvkRAgKOjs7mzgvLCxEQbvdbmIhBAVdWFhIlg4ODkYqXrAPDAwQIyEoaKvVCm2S4gf96o8FFtgxS3QNQvhshE5Rw0g1QF6sra0hGxER9gsNoHajaOjlVFlZSZSuqXwIpLW1FSXfcEMRhP7+fnUq0vIUSr8EyhO8CDdMUcW+sH1DXKyHV7xdZnp6uq+vL54u09bWVlVVZbg3onhOTk5G4tbU1CBew73xeOzu7qKera6urq+vo7ZBYXl5efn5+dBZRkZGgh09+cMsiU6ik+j//sIR3PlLmrotuZeDK2uMz8+kmNiCJ7inT3PVZ9jMkwmWp+CmJ3B9SBz9JpInX/eccKGJfSzbGFr8esp/8X3m0Btjzxaz6dpl/vnqeNGB3s8CVxwGzvRSi/BGY+xrFL/6zhBXDuWKA14xog7+9ofX9mrscwh3Mmbn5+yjD0eMOtD9sZ4LB9MHb8LTcncGn/hOEEc/qLyyb6So5ZDP1DKi5sWAP2czXetiTqRpnP7e91/sFm85tYrhzLfH1E9VopYm5ggXwjrmBn/5VZpx4fHyxIk02KnsREkmhD0Qaf4HevVdr4e4iNFb3exrvISbEG+Oh+jC261kPSEo6ODdLZoU9go5mi9u4e/4TP1dV0Ox89XlNMu0BBWaXKDFzKQ9IMfiXiY3Jt35Sf6CWYvmNYAQFDSrXSdLZf/e0Yk/oteM/A+zWhYhqNCP59D0mZJfOvnGF9RT/EtnuadOybMzLvpILUGpfJy1GKVDI/N3P+KfKWNPPmj+9pPA4JfBzd+50mKgQ/oLvPMhzWxrcQRdb3q8Fa+E0fX1t0KHroz9e/4L74XR9dwNtSI5tYr1NQz+XvtrEFzo9vGJciFbCBfkF58lStfWEARua2D8fsM1xGQyf38jWg05Sr/LCfQqeOkLC6ffl9B53lgP7DwPr7i7zM1xZF1cXaa781/NGOuNVz9VUlzfG18+h3gN90blAdt/SuNz0o8/B5dXGVFkeJ49nc8VP8mdrWCzHkq+cBga/wgwAOT0PBdneKiwAAAAAElFTkSuQmCC);
+     }
+     input[type=range] {
+         margin-left: -6px !important;
+     }
+
+.edgtf-title, .edgtf-title.edgtf-has-parallax-background {
+  z-index:99 !important;
+}
+
+
+footer .widget.widget_text .edgtf-footer-widget-title, .edgtf-footer-widget-title {
+  letter-spacing: -1.5px !important;
+  font-weight: bold !important;
+  font-family: "Roboto" !important;
+}
+
+.textwidget > p > a
+{
+  line-height: 26px;
+  text-decoration: none;
+  font-family: "Roboto" !important;
+  
+}
+
+.textwidget
+{
+   text-decoration: none;
+  font-family: "Roboto" !important;
+}
+
+.edgtf-title-subtitle-holder-inner > h1 > span
+{
+   font-family: "Roboto" !important;
+    letter-spacing: -1.5px !important;
+  font-weight: bold !important;
+}
+/*RANGE SLIDER END */
